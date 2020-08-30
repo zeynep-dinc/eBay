@@ -42,7 +42,7 @@ include Test::Unit::Assertions
         #giriş yapılmış olması gerek fakat recaptcha ya takılma ihtimaline karşın
         userName=driver.find_element(:id=>'gh-ug').text
         puts userName+" oturum acti"
-        assert_equal userName,'Hi zeynep!', "oturum acildi"
+        assert_equal userName,'Hi USERNAME!', "oturum acildi"
         sleep 10
             #categorilere tıkla ve antikaları seç
             categorySelect=driver.find_element(:id,'gh-cat')
