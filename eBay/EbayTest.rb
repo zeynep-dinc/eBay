@@ -24,7 +24,7 @@ include Test::Unit::Assertions
         userIdText=driver.find_element(:id,"userid")
         userIdText.click()
         sleep 5
-        userIdText.send_keys 'zeynepdinc.23@gmail.com'
+        userIdText.send_keys 'email.adresiniz'
         puts "email yazildi"
         # sleep 5
         userIdText.send_keys :enter
@@ -33,7 +33,7 @@ include Test::Unit::Assertions
         userPassText=driver.find_element(:id,'pass')
         userPassText.click()
         sleep 5
-        userPassText.send_keys 'AtLeast6'
+        userPassText.send_keys 'Sifreniz'
         puts "sifre yazildi"
         #sleep 5
         userPassText.send_keys :enter
